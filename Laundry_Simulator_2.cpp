@@ -9,6 +9,9 @@ using namespace std;
 
 int main() {
     
+    //create random seed
+    srand(time(NULL));
+
     // text file
     ofstream myFile;
     myFile.open("abc.txt");    
