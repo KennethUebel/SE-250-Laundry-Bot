@@ -6,10 +6,10 @@ using namespace std;
 
 int main()
 {
-    char Shoemaker [19];
-    char Mitchell [19];
-    char Lawerence [10];
-    char Case [19];
+    char Shoemaker [19]= { ' ' };
+    char Mitchell [19]= { ' ' };
+    char Lawerence [10]= { ' ' };
+    char Case [19]= { ' ' };
     int i;
     int k;
 
@@ -106,7 +106,7 @@ int main()
 
     output<< "\n";
 
-    for(i=0; i<11; i++)
+    for(i=0; i<10; i++)
     {
         output<< Lawerence[i];
     }
