@@ -21,7 +21,7 @@ int main() {
 
     int WashersSH[7];
     for (int i = 0; i < 7; i++) {
-        WashersSH[i] = rand() % 2;
+        WashersSH[i] = rand() % 3;
         myFile << WashersSH[i];
     }
 
@@ -29,7 +29,7 @@ int main() {
 
     int DryersSH[8];
     for (int i = 0; i < 8; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         DryersSH[i] = randnum;
         myFile << DryersSH[i];
     }
@@ -39,7 +39,7 @@ int main() {
 
     int WashersLH[3];
     for (int i = 0; i < 3; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         WashersLH[i] = randnum;
         myFile << WashersLH[i];
     }
@@ -48,7 +48,7 @@ int main() {
 
     int DryersLH[3];
     for (int i = 0; i < 3; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         DryersLH[i] = randnum;
         myFile << DryersLH[i];
     }
@@ -58,7 +58,7 @@ int main() {
 
     int WashersMH[6];
     for (int i = 0; i < 6; i++) {
-        WashersMH[i] = rand() % 2;
+        WashersMH[i] = rand() % 3;
         myFile << WashersMH[i];
     }
 
@@ -66,7 +66,7 @@ int main() {
 
     int DryersMH[9];
     for (int i = 0; i < 9; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         DryersMH[i] = randnum;
         myFile << DryersMH[i];
     }
@@ -76,7 +76,7 @@ int main() {
 
     int WashersCHH[7];
     for (int i = 0; i < 7; i++) {
-        WashersCHH[i] = rand() % 2;
+        WashersCHH[i] = rand() % 3;
         myFile << WashersCHH[i];
     }
 
@@ -84,7 +84,7 @@ int main() {
 
     int DryersCHH[8];
     for (int i = 0; i < 8; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         DryersCHH[i] = randnum;
         myFile << DryersCHH[i];
     }
@@ -94,7 +94,7 @@ int main() {
 
     int Washerssws[3];
     for (int i = 0; i < 3; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         Washerssws[i] = randnum;
         myFile << Washerssws[i];
     }
@@ -103,7 +103,7 @@ int main() {
 
     int Dryerssws[3];
     for (int i = 0; i < 3; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         Dryerssws[i] = randnum;
         myFile << Dryerssws[i];
     }
@@ -113,7 +113,7 @@ int main() {
 
     int Washersswn[3];
     for (int i = 0; i < 3; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         Washersswn[i] = randnum;
         myFile << Washersswn[i];
     }
@@ -122,7 +122,7 @@ int main() {
 
     int Dryersswn[3];
     for (int i = 0; i < 3; i++) {
-        int randnum = rand() % 2;
+        int randnum = rand() % 3;
         Dryersswn[i] = randnum;
         myFile << Dryersswn[i];
     }
