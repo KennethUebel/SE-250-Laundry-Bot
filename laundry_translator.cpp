@@ -13,7 +13,7 @@ int main()
     int i;
     int k;
 
-    ifstream info_doc("info_dump_test.txt");
+    ifstream info_doc("abc.txt");
 
     string laundry_info;
 

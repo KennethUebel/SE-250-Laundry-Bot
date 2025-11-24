@@ -19,8 +19,8 @@ int main() {
     // SHOEMAKER
     myFile << "W";
 
-    int WashersSH[8];
-    for (int i = 0; i < 8; i++) {
+    int WashersSH[7];
+    for (int i = 0; i < 7; i++) {
         WashersSH[i] = rand() % 2;
         myFile << WashersSH[i];
     }
@@ -56,8 +56,8 @@ int main() {
     // MITCHELL
     myFile << " W";
 
-    int WashersMH[9];
-    for (int i = 0; i < 9; i++) {
+    int WashersMH[6];
+    for (int i = 0; i < 6; i++) {
         WashersMH[i] = rand() % 2;
         myFile << WashersMH[i];
     }
@@ -74,8 +74,8 @@ int main() {
     // CASE HILL HALL
     myFile << " W";
 
-    int WashersCHH[8];
-    for (int i = 0; i < 8; i++) {
+    int WashersCHH[7];
+    for (int i = 0; i < 7; i++) {
         WashersCHH[i] = rand() % 2;
         myFile << WashersCHH[i];
     }
