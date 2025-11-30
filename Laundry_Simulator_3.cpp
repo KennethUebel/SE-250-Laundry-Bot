@@ -134,8 +134,8 @@ int main() {
 
 int weighted_rand()
 {
-    int r = rand() % 5;  
-    if (r < 2) return 0; 
-    if (r < 4) return 1; 
+    int r = rand() % 7;  
+    if (r < 3) return 0; 
+    if (r < 6) return 1; 
     return 2;            
 }
